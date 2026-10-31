@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis dan Refleksi | Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="nav-container">
+        <a href="index.html" class="brand">
+            <div class="brand-mark">PPG</div>
+            <div class="brand-text">
+                <strong>PORTOFOLIO PPG</strong>
+                <span>Calon Guru Informatika</span>
+            </div>
+        </a>
+        <button class="menu-toggle" aria-label="Buka navigasi">☰</button>
+        <nav class="nav">
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <div class="nav-dropdown">
+                <button class="nav-drop-button">Praktik Mengajar ▾</button>
+                <div class="dropdown-menu">
+                    <a href="siklus-1.html">Siklus 1</a>
+                    <a href="siklus-2.html">Siklus 2</a>
+                    <a href="siklus-3.html">Siklus 3</a>
+                    <a href="siklus-4.html">Siklus 4</a>
+                </div>
+            </div>
+            <a href="analisis.html" class="active">Analisis & Refleksi</a>
+            <a href="artefak.html">Artefak</a>
+        </nav>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <div class="breadcrumb"><a href="index.html">Beranda</a> / Analisis dan Refleksi</div>
+        <span class="eyebrow">CATATAN AKADEMIK</span>
+        <h1>Analisis dan Refleksi</h1>
+        <p>Ruang untuk mendokumentasikan pemikiran, pembelajaran, evaluasi pengalaman, dan rencana pengembangan diri selama mengikuti PPG.</p>
+    </div>
+</section>
+
+<main class="section">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">PROSES PENGEMBANGAN KOMPETENSI</span>
+            <h2>Belajar dari Setiap Pengalaman</h2>
+            <p>
+                Setiap pengalaman pembelajaran memberikan kesempatan untuk
+                mengidentifikasi hal yang sudah berjalan baik, tantangan yang
+                dihadapi, serta perbaikan yang dapat dilakukan.
+            </p>
+        </div>
+
+        <div class="analysis-grid">
+            <article class="card analysis-card">
+                <div class="card-number">01</div>
+                <span class="small-label">ORIENTASI PPL</span>
+                <h3>Observasi Lingkungan Belajar</h3>
+                <p>
+                    Dokumentasikan hasil pengamatan terhadap lingkungan fisik,
+                    sosial, akademik, dan budaya sekolah. Uraikan bagaimana
+                    lingkungan tersebut mendukung proses pembelajaran.
+                </p>
+                <a href="siklus-1.html#rancangan" class="artifact-link">Lihat dokumentasi →</a>
+            </article>
+
+            <article class="card analysis-card">
+                <div class="card-number">02</div>
+                <span class="small-label">PERENCANAAN PEMBELAJARAN</span>
+                <h3>Analisis Perangkat Pembelajaran</h3>
+                <p>
+                    Catat pertimbangan dalam menyusun tujuan pembelajaran,
+                    materi, metode, media, dan asesmen berdasarkan kebutuhan
+                    peserta didik.
+                </p>
+                <a href="artefak.html" class="artifact-link">Lihat artefak →</a>
+            </article>
+
+            <article class="card analysis-card">
+                <div class="card-number">03</div>
+                <span class="small-label">PRAKTIK MENGAJAR</span>
+                <h3>Evaluasi Pelaksanaan Pembelajaran</h3>
+                <p>
+                    Analisis keterlaksanaan pembelajaran, keterlibatan peserta
+                    didik, pengelolaan kelas, komunikasi, serta penggunaan
+                    media pembelajaran.
+                </p>
+                <a href="siklus-1.html#video" class="artifact-link">Lihat praktik →</a>
+            </article>
+
+            <article class="card analysis-card">
+                <div class="card-number">04</div>
+                <span class="small-label">TINDAK LANJUT</span>
+                <h3>Rencana Pengembangan Diri</h3>
+                <p>
+                    Susun langkah konkret untuk meningkatkan kualitas
+                    pembelajaran berdasarkan hasil refleksi dan umpan balik
+                    yang diperoleh.
+                </p>
+                <a href="siklus-4.html#refleksi-siklus" class="artifact-link">Lihat refleksi →</a>
+            </article>
+        </div>
+
+        <div class="card content-card" style="margin-top:25px;">
+            <span class="small-label">CATATAN REFLEKTIF</span>
+            <h3>Ruang Menulis Refleksi Pribadi</h3>
+            <p>
+                Gunakan bagian ini untuk menuliskan pembelajaran penting,
+                tantangan, dan tindak lanjut yang ingin dikembangkan.
+                Catatan akan tersimpan otomatis pada browser yang digunakan.
+            </p>
+
+            <div class="reflection-box">
+                <label for="reflection-general">Refleksi perjalanan PPG</label>
+                <textarea id="reflection-general" data-save="refleksi-umum"
+                    placeholder="Tuliskan refleksi dan pembelajaran yang diperoleh selama mengikuti PPG..."></textarea>
+                <span class="save-note">Penyimpanan otomatis aktif pada perangkat dan browser ini.</span>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div>
+            <strong>PORTOFOLIO MAHASISWA PPG CALON GURU INFORMATIKA</strong>
+            <p>Universitas Negeri Malang · Pendidikan Profesi Guru</p>
+        </div>
+        <div class="footer-copy">© <span class="year"></span> Academic Portfolio</div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

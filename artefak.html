@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefak Pembelajaran | Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="nav-container">
+        <a href="index.html" class="brand">
+            <div class="brand-mark">PPG</div>
+            <div class="brand-text">
+                <strong>PORTOFOLIO PPG</strong>
+                <span>Calon Guru Informatika</span>
+            </div>
+        </a>
+        <button class="menu-toggle" aria-label="Buka navigasi">☰</button>
+        <nav class="nav">
+            <a href="index.html">Beranda</a>
+            <a href="profil.html">Profil</a>
+            <div class="nav-dropdown">
+                <button class="nav-drop-button">Praktik Mengajar ▾</button>
+                <div class="dropdown-menu">
+                    <a href="siklus-1.html">Siklus 1</a>
+                    <a href="siklus-2.html">Siklus 2</a>
+                    <a href="siklus-3.html">Siklus 3</a>
+                    <a href="siklus-4.html">Siklus 4</a>
+                </div>
+            </div>
+            <a href="analisis.html">Analisis & Refleksi</a>
+            <a href="artefak.html" class="active">Artefak</a>
+        </nav>
+    </div>
+</header>
+
+<section class="page-hero">
+    <div class="container">
+        <div class="breadcrumb"><a href="index.html">Beranda</a> / Artefak</div>
+        <span class="eyebrow">KARYA DAN DOKUMENTASI</span>
+        <h1>Artefak Pembelajaran</h1>
+        <p>Kumpulan perangkat ajar, materi, media pembelajaran, asesmen, dan karya inovasi yang dikembangkan selama proses PPG.</p>
+    </div>
+</section>
+
+<main class="section">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">ARSIP KARYA</span>
+            <h2>Dokumentasi Hasil Pengembangan</h2>
+            <p>Pilih kategori untuk melihat artefak berdasarkan jenis karya.</p>
+        </div>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="semua">Semua</button>
+            <button class="filter-btn" data-filter="modul">Modul Ajar</button>
+            <button class="filter-btn" data-filter="materi">Materi</button>
+            <button class="filter-btn" data-filter="media">Media</button>
+            <button class="filter-btn" data-filter="asesmen">Asesmen</button>
+            <button class="filter-btn" data-filter="inovasi">Inovasi</button>
+        </div>
+
+        <div class="artifact-grid">
+            <article class="card artifact-card" data-category="modul">
+                <div class="artifact-cover">▤</div>
+                <div class="artifact-body">
+                    <span class="artifact-category">MODUL AJAR</span>
+                    <h3>Modul Ajar Informatika</h3>
+                    <p>Perangkat perencanaan pembelajaran Informatika SMP.</p>
+                    <a href="#" class="artifact-link">Tambahkan tautan dokumen →</a>
+                </div>
+            </article>
+
+            <article class="card artifact-card" data-category="materi">
+                <div class="artifact-cover">▧</div>
+                <div class="artifact-body">
+                    <span class="artifact-category">MATERI</span>
+                    <h3>Bahan Ajar Informatika</h3>
+                    <p>Materi pembelajaran yang disusun sesuai tujuan pembelajaran.</p>
+                    <a href="#" class="artifact-link">Tambahkan tautan dokumen →</a>
+                </div>
+            </article>
+
+            <article class="card artifact-card" data-category="media">
+                <div class="artifact-cover">▣</div>
+                <div class="artifact-body">
+                    <span class="artifact-category">MEDIA</span>
+                    <h3>Media Pembelajaran Digital</h3>
+                    <p>Media interaktif untuk mendukung kegiatan pembelajaran.</p>
+                    <a href="#" class="artifact-link">Tambahkan tautan media →</a>
+                </div>
+            </article>
+
+            <article class="card artifact-card" data-category="asesmen">
+                <div class="artifact-cover">✓</div>
+                <div class="artifact-body">
+                    <span class="artifact-category">ASESMEN</span>
+                    <h3>Instrumen Penilaian</h3>
+                    <p>Instrumen untuk mengukur ketercapaian tujuan pembelajaran.</p>
+                    <a href="#" class="artifact-link">Tambahkan tautan dokumen →</a>
+                </div>
+            </article>
+
+            <article class="card artifact-card" data-category="inovasi">
+                <div class="artifact-cover">✧</div>
+                <div class="artifact-body">
+                    <span class="artifact-category">INOVASI</span>
+                    <h3>Proyek Inovasi Pembelajaran</h3>
+                    <p>Karya pengembangan pembelajaran yang mengintegrasikan teknologi.</p>
+                    <a href="#" class="artifact-link">Tambahkan tautan karya →</a>
+                </div>
+            </article>
+
+            <article class="card artifact-card" data-category="media">
+                <div class="artifact-cover">▤</div>
+                <div class="artifact-body">
+                    <span class="artifact-category">MEDIA</span>
+                    <h3>Lembar Kerja Peserta Didik</h3>
+                    <p>LKPD untuk memandu aktivitas dan proses belajar peserta didik.</p>
+                    <a href="#" class="artifact-link">Tambahkan tautan dokumen →</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</main>
+
+<div class="lightbox">
+    <button class="lightbox-close" aria-label="Tutup">&times;</button>
+    <img src="" alt="Tampilan gambar">
+</div>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div>
+            <strong>PORTOFOLIO MAHASISWA PPG CALON GURU INFORMATIKA</strong>
+            <p>Universitas Negeri Malang · Pendidikan Profesi Guru</p>
+        </div>
+        <div class="footer-copy">© <span class="year"></span> Academic Portfolio</div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
